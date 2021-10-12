@@ -1,0 +1,20 @@
+package Drivers;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TestBrowsers {
+
+	public static void main(String[] args) {
+		
+				System.setProperty("webdriver.gecko.driver","D:\\driver\\geckodriver-v0.30.0-win64\\geckodriver.exe");
+				
+				FirefoxDriver driver = new FirefoxDriver();
+				driver.get("http://way2automation.com");
+				
+			
+
+		// TODO Auto-generated method stub
+
+	}
+
+}
